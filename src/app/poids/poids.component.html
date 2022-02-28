@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-form-field>
+
+    <mat-label>KILOGRAMMES</mat-label>
+    <input matInput placeholder="kg" [(ngModel)]="kg" (ngModelChange)="kgEnLbs()">
+
+  </mat-form-field>
+
+  <br>
+
+
+  <mat-form-field>
+
+    <mat-label>LIVRES</mat-label>
+    <input matInput placeholder="lbs" [(ngModel)]="lbs" (ngModelChange)="lbsEnKg()">
+
+  </mat-form-field>
+</mat-card>
